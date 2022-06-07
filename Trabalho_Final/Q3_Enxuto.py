@@ -1,0 +1,11 @@
+n = 8989
+e = 3
+texto_codificado = 112113114115116
+b1 = 1121
+b2 = 1311
+b3 = 4115
+b4 = 116
+print(pow(b1, e, n))
+print(pow(b2, e, n))
+print(pow(b3, e, n))
+print(pow(b4, e, n))

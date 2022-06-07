@@ -1,0 +1,19 @@
+Resposta: O teorema Chinês dos Restos nos serve para acelerar o processo de descriptação. Para tanto, é de suma importância que os dados calculados mostrados no enunciado, sejam realizados. Por exemplo: 
+
+Sabendo os valores de P e Q, podemos facilmente descobrir o valor de N, pois N = P . Q
+
+Logo, pelo Pequeno Teorema de Fermat, temos que P | y^(p-1)-1. Dessa forma:
+
+y^(p-1) = 1 (mod p) e  y^(q-1) = 1 (mod q)
+
+Com isso, podemos expandir essa ideia até obtermos um sistema de congruências, tal que: x = a (mod p) e x = b (mod q)
+
+Para tal, pelo Teorema Chinês dos Restos, temos que: 
+
+	x = (a . q . q') + (b . p . p') (mod n)
+
+onde p' é o inverso de p em módulo q e q' é o inverso de q módulo p. Esses, por sua vez, são dois dos quatro dados armazenados pelo usuário. 
+
+Tomando como base o programa apresentado como resolução na Questão 12, temos que as duas formas reduzidas são aplicadas no processo para descobrir a congruência na qual a operação é equivalente, sendo utilizadas como expoentes na hora de calcular a aritmética modular.
+
+A vantagem de usar o TCR no processo de descriptação é a simplificação do processo, tornando-o mais ágil.

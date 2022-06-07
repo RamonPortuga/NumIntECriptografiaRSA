@@ -1,0 +1,106 @@
+Notas e Feedback do Trabalho Final e Disciplina (Cripto 20.1)
+
+
+Ramon
+=====
+
+Q1
+~~
+
+  "Ao rodarmos o programa apresentado em aula, que realiza o teste de
+  Miller-Rabin, temos que Fn irá cair na condicional marcada" -->
+  afirmação não provada
+
+  "Observando a imagem abaixo, odemos notar" não é bem uma prova
+  matemática.
+
+
+Q2
+~~
+
+  Tem um cheiro de prova aí no meio, mas está muito no campo das ideias
+  e exemplos. Precisamos de um estilo mais "preto no branco"
+
+
+Q4
+~~
+
+  OK, pelo menos houve um início de tentativa.
+
+
+Q5
+~~
+
+  Na verdade o RSA depende de p e q serem diferentes
+
+
+Q6a
+~~~
+
+  Ficou um pouco enrolada a estrutura da prova, não entendi bem o que o
+  Teorema está fazendo ali no meio.
+
+
+Q7
+~~
+
+  para usar o PTF2 precisa que mdc(y,P) = 1
+
+  "simplificação" não é uma resposta clara à pergunta de por quê esse
+  processo é mais rápido.
+
+
+Q9
+~~
+
+  Faltou dizer como obter phi(n) a partir de ed-1
+
+
+Q10
+~~~
+
+  "agora podemos encontrar os outros primos que compõem as demais
+  chaves." --> apenas aquelas que compartilham primos
+
+
+Q11b
+~~~~
+
+  O caso e=3 não basta completamente.
+
+  Por que a raiz cúbica no final funciona corretamente?
+
+
+Notas
+~~~~~
+
+  Ramon Oliveira de Azevedo
+  TFQ1: 0,28 / 0,7
+  TFQ2: 0,28 / 0,7
+  TFQ3a: 0,4 / 0,4
+  TFQ4b: 0,4 / 0,4
+  TFQ4: 0,11 / 0,7
+  TFQ5: 0,56 / 0,7
+  TFQ6a: 0,3 / 0,4
+  TFQ6b: 0,4 / 0,4
+  TFQ7: 0,24 / 0,7
+  TFQ8: 0,7 / 0,7
+  TFQ9: 0,47 / 0,7
+  TFQ10: 0,6 / 0,7
+  TFQ11a: 0,4 / 0,4
+  TFQ11b: 0,14 / 0,4
+  TFQ12a: 0,5 / 0,5
+  TFQ12b: 0,5 / 0,5
+  TFQ12c: 0,5 / 0,5
+  TFQ12d: 0,5 / 0,5
+  TFNota: 7,28 / 10
+  Lista 1: 8,07 / 10
+  Lista 2: 6,46 / 10
+  Lista 3: 6,76 / 10
+  Lista 4: 8,28 / 10
+  Lista 5: 7,98 / 10
+  Lista 6: 9,3 / 10
+  Lista 7: 9,1 / 10
+  Lista 8: 9 / 10
+  Média das Listas: 8,72 / 10
+  NOTA FINAL: 8,3 / 10

@@ -1,0 +1,8 @@
+1Q) Temos que a fórmula apresentada é a mesma que define um número de Fermat. Ao rodarmos o programa apresentado em aula, que realiza o teste de Miller-Rabin, temos que Fn irá cair na condicional marcada: 
+
+(anexo aqui o print do código com o código e a condicional comentada)
+
+Como vimos, o número irá corresponder ao formato de r == (num - 1). Quando r entrar no loop while, ele terá o valor de 2. Logo, os números seguintes que serão o resultado de pow(r, 2, num), serão potências de 2. Observando o print abaixo, podemos notar que todos os números apresentados com o valor de r representam uma sequência, onde todos os números resultantes de pow(r, 2, num) pertencem a ordem de 2^(2^n). Como os números de Fermat podem ser definidos através da Fórmula Fn = 2^(2^n) + 1, podemos concluir q eles serão pseudoprimos de Miller Rabin, pois serão iguais a (num - 1). Além disso, vale afirmar que, como provado por Euler, o número da forma Fn = 2^(2^n) + 1 quando N = 5, é composto. E, até hoje, não se descobriu nenhum número F(n) primo com n > 4.
+
+
+Isso ocorre especialmente com a base 2, por que o valor de r irá entrar dentro do loop while com o valor 2 e, após isso, na função que define o valor da potenciação (pow), o seu expoente sempre será 2

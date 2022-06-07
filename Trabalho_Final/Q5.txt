@@ -1,0 +1,10 @@
+*Questão 5. O expoente e = 2 nunca deveria ser usado como expoente público.
+Por quê?
+
+Isso ocorre porque um Expoente Público Pequeno pode comprometer a segurança do RSA, isto é, colocar a privacidade das mensagens em risco.
+
+Temos que o mdc(E, Phi) tem que ser igual a 1. Então, quando trabalhamos com números primos grandes, temos que phi será par, e o mdc de 2 com um número par não será igual a 1. A única possibilidade do E poder ser 2 é quando o P e o Q forem dois, pois assim o Phi seria igual a:
+
+		(2 - 1)(2 - 1) = 1 . 1 => 1
+
+E, como sabemos, o mdc (2, 1) será igual a 1. Só que dessa forma, com P e Q sendo igual a 2, eles serão primos muito pequenos e isso é algo que pode prejudicar seriamente a segurança do RSA, perdendo então, a sua eficácia. 

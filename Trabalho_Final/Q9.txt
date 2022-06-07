@@ -1,0 +1,17 @@
+Se eu tenho D, eu conheço E e Phi. Ou se não, eu posso descobrir Phi fazendo o caminho inverso para achar D.
+
+Conhecendo Phi e fatorando-o, eu conheço (p - 1) e (q - 1). Logo, dessa maneira, podemos descobrir p e q.
+
+
+Eu tenho:
+N
+E
+Chave privada D
+E, D > 1
+
+Entretanto, isto n˜ao ´e verdade e o resultado ´e
+um sistema inseguro. Como todos os usu´arios possuem o mesmo m´odulo, Beto pode usar
+seus pr´oprios expoentes eB, dB para fatorar o m´odulo N e assim que N ´e fatorado Beto
+pode recuperar a chave particular da Alice dA e de qualquer outro usu´ario i atrav´es da
+chave publica ´ correspondente. Esta observa¸c˜ao mostra que um m´odulo RSA n˜ao deve ser
+usado para mais que uma entidade

@@ -1,0 +1,8 @@
+Como o enunciado nos diz, temos três chaves N. Podemos quebrar alguma delas através do cálculo do MDC utlizando um par dessas chaves. Temos que:
+
+(colocar a divisibilidade mdc)
+
+Como sabemos, N = P . Q , sendo P e Q primos. Assim, descobrindo um MDC, temos que esse número será capaz de dividir as duas chaves N. Como dito anteriormente, como as chaves N são o resultado da multiplicação de 2 primos, descobrindo um, podemos descobrir o outro. 
+
+Isso acontece pois, segundo o enunciado, as três chaves N foram feitas utilizando 5 números primos. Então consequentemente, um primo vai estar em 2 chaves ao mesmo tempo. Como achamos esse primo pelo MDC, agora podemos encontrar os outros primos que compõem as demais chaves.
+
